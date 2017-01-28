@@ -1,0 +1,70 @@
+html { height: 100%;}
+body {
+    font-family: proxima-nova;
+    font-size: 16px;
+    padding: 0 0 100px 0;
+    box-sizing: border-box;
+    min-height: 100%;
+    position: relative;
+}
+footer {
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+
+.login-form {
+    width: 300px;
+    margin: 50px auto;
+}
+.glyphicon { margin-left: 10px;}
+.large-nav{
+    display: block;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.nav-tabs { margin-bottom: 20px; }
+.container {
+    /*outline: 1px solid green;*/
+}
+.row {
+    /*outline: 2px solid red;*/
+}
+.square {
+	display: block;
+	position: relative;
+	width: 33%;
+	margin: 0;	
+	text-align: center;
+	padding: 0;
+	overflow: hidden;
+	outline: 1px solid red;
+	box-sizing: border-box;
+	float: left;
+}
+.square:after {
+  padding-top: 100%;
+  display: block;
+  content: '';
+}
+.square-inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.square-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+    
+}
+.square-cell {
+   
+    display: table-cell;
+    vertical-align: middle;
+    
+}
